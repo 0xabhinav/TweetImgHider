@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "Twitter/X Media Hider",
+    "version": "1.0",
+    "description": "Hides all images and media on the bird app",
+    "icons": {
+      "128": "assets/logo.png"
+    },    
+    "permissions": ["activeTab", "storage"],
+    "host_permissions": [
+      "https://twitter.com/*",
+      "https://*.twitter.com/*",
+      "https://x.com/*",
+      "https://*.x.com/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "assets/logo.png"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "https://twitter.com/*",
+          "https://*.twitter.com/*",
+          "https://x.com/*",
+          "https://*.x.com/*"
+        ],
+        "js": ["content.js"]
+      }
+    ]
+}
