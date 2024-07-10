@@ -1,5 +1,5 @@
 # Twitter/X Media Hider
-![logo](assets/logo.png)
+![logo](assets/logo.png)  
 
 A PoC extension which lets you disable images on the bird app
 
