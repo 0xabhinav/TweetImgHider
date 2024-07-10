@@ -2,7 +2,7 @@
 
 ![logo](assets/logo.png)
 
-A PoC extension which lets you disable images on the bird app
+A PoC extension which lets you disable images on the bird app ([Inspiration](https://x.com/archived_videos/status/1811105251149115638))
 
 ## Demo
 
